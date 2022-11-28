@@ -4,35 +4,35 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '亲爱的, 早上好',
     desc: `
-      **{{date.DATA}}**
+      **{{date.11.29}}**
       
-      下个休息日：{{holidaytts.DATA}}
-      
-      ---
-      
-      城市：{{city.DATA}}
-      
-      天气：{{weather.DATA}}
-      
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
-      
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
-      
-      {{comprehensive_horoscope.DATA}}
+      下个休息日：{{holidaytts.11.30}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      城市：{{city.郑州}}
       
-      {{birthday_message.DATA}}
+      天气：{{weather.阴}}
+      
+      气温(最高/最低):{{9度}} / {{-5度}}
+      
+      风向: {{西北风}}
+      
+      风级: {{三级}}
+      
+      {{今天很爱金浩}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      我们相识第{{4个}}月
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      {{金浩生日7月16日}}
+      
+      ---
+      
+      {{距离金浩生日还有229天}}
+      
+      {{爱金浩}} {{金浩最棒}}
     `
   },
   {
